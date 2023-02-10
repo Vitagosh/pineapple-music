@@ -39,3 +39,5 @@ const User = sequelize.define('user', {
 module.exports = User
 
 User.hasMany(Playlist, {foreignKey: 'playlistId'})
+
+return User
